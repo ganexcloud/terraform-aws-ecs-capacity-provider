@@ -49,4 +49,3 @@ variable "target_capacity" {
   type        = number
   default     = null
 }
-
