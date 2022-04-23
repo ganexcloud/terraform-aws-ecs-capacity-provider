@@ -1,3 +1,4 @@
+<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 No requirements.
@@ -38,3 +39,4 @@ No modules.
 |------|-------------|
 | <a name="output_arn"></a> [arn](#output\_arn) | ARN that identifies the capacity provider. |
 | <a name="output_name"></a> [name](#output\_name) | ARN that identifies the capacity provider. |
+<!-- END_TF_DOCS -->
