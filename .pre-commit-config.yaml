@@ -31,12 +31,11 @@ repos:
     #    - '--args=--only=terraform_required_providers'
     #    - '--args=--only=terraform_standard_module_structure'
     #    - '--args=--only=terraform_workspace_remote'
-repos:
-  - repo: local
-    hooks:
-      - id: terraform-docs
-        name: terraform-docs
-        language: docker_image
-        entry: quay.io/terraform-docs/terraform-docs:latest
-        args: ["markdown", "--output-file", "README.md", "--output-mode", "replace", "./"]
-        pass_filenames: false
+- repo: local
+  hooks:
+    - id: terraform-docs
+      name: terraform-docs
+      language: docker_image
+      entry: quay.io/terraform-docs/terraform-docs:latest
+      args: ["markdown", "--output-file", "README.md", "--output-mode", "replace", "./"]
+      pass_filenames: false
