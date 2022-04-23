@@ -58,7 +58,7 @@ module "iam_assumable_role_production_ecsinstancerole" {
   ]
 }
 
-module "vpc_ecs-production" {
+module "vpc_ecs_production" {
   source               = "terraform-aws-modules/vpc/aws"
   version              = "3.14.0"
   name                 = "ecs-production"
