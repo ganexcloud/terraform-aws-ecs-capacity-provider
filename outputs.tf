@@ -7,3 +7,8 @@ output "name" {
   value       = var.name
   description = "ARN that identifies the capacity provider."
 }
+
+output "id" {
+  value       = var.name
+  description = "ARN that identifies the capacity provider222"
+}
