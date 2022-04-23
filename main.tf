@@ -1,3 +1,8 @@
+/**
+  *
+  * Create a ECS capacity provider.
+  */
+
 resource "aws_ecs_capacity_provider" "this" {
   name = var.name
   tags = var.tags
