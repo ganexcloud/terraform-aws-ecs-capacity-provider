@@ -1,6 +1,6 @@
 variable "name" {
-  type        = string
   description = "(Required) Name of the capacity provider."
+  type        = string
 }
 
 variable "tags" {
