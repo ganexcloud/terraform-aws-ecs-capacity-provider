@@ -31,7 +31,7 @@ jobs:
       matrix:
         directory: ${{ fromJson(needs.collectInputs.outputs.directories) }}
     steps:
-      - run: echo -e '[url "https://github.com/"]\n  insteadOf = "git@github.com:"' >> ~/.gitconfig
+      - run: git config --global url."https://".insteadOf git://
       - name: Checkout
         uses: actions/checkout@v3
 
