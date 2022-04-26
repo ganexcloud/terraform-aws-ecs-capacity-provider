@@ -7,7 +7,8 @@ resource "aws_ecs_capacity_provider" "this" {
   name = var.name
   tags = var.tags
   auto_scaling_group_provider {
-    auto_scaling_group_arn = var.auto_scaling_group_arn
+    auto_scaling_group_arn         = var.auto_scaling_group_arn
+    managed_termination_protection = var.managed_termination_protection
     managed_scaling {
       status                    = var.status
       instance_warmup_period    = var.instance_warmup_period
