@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.0](https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider/compare/v0.0.4...v0.1.0) (2022-04-26)
+
+
+### Features
+
+* Add unused variable ([5f1d261](https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider/commit/5f1d261e726eca3bc6a9781b99ab04cc5e629ada))
+
 ### [0.0.4](https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider/compare/v0.0.3...v0.0.4) (2022-04-23)
 
 
