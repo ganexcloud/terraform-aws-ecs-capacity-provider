@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.1.1](https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider/compare/v0.1.0...v0.1.1) (2026-08-06)
+
+### Bug Fixes
+
+* **ci:** pin terraform-docs image ([8ff4069](https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider/commit/8ff4069b2ca71c5d4783bcbecee72712bb8e6fd8))
+* **docs:** align provider version ([058de73](https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider/commit/058de736a5c424cf375e6d2b661a671262c18cb7))
+
 ## [0.1.0](https://github.com/ganexcloud/terraform-aws-ecs-capacity-provider/compare/v0.0.4...v0.1.0) (2022-04-26)
 
 
