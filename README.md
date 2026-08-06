@@ -1,3 +1,7 @@
+## Compatibility
+
+This module requires Terraform 0.13.1 or later. Older Terraform versions are not supported.
+
 <!-- BEGIN_TF_DOCS -->
 
 Create a ECS capacity provider.
@@ -13,7 +17,7 @@ Create a ECS capacity provider.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.63 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 6.58.0 |
 
 ## Modules
 
